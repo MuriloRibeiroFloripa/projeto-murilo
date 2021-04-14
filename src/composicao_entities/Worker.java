@@ -1,10 +1,10 @@
-package entities;
+package composicao_entities;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import entities.enums.WorkerLevel;
+import composicao_entities.enums.WorkerLevel;
 
 public class Worker {
 	private String name;

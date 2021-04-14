@@ -1,4 +1,5 @@
-package model.enums1;
+package composicao_model.enums;
+
 public enum OrderStatus {
 	PENDING_PAYMENT,
 	PROCESSING,

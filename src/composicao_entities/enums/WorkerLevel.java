@@ -1,4 +1,4 @@
-package entities.enums;
+package composicao_entities.enums;
 
 public enum WorkerLevel {
 	JUNIOR,

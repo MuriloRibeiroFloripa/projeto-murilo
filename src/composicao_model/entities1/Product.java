@@ -1,4 +1,4 @@
-package model.entities1;
+package composicao_model.entities1;
 
 public class Product {
 

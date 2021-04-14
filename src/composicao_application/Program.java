@@ -1,9 +1,9 @@
-package application;
+package composicao_application;
 
 import java.util.Date;
 
-import entities.Order;
-import entities.enums.OrderStatus;
+import composicao_entities.Order;
+import composicao_entities.enums.OrderStatus;
 
 public class Program {
 

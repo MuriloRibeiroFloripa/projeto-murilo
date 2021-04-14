@@ -1,8 +1,8 @@
-package entities;
+package composicao_entities;
 
 import java.util.Date;
 
-import entities.enums.OrderStatus;
+import composicao_entities.enums.OrderStatus;
 
 public class Order {//classe pedido
 	private Integer id; //id do pedido

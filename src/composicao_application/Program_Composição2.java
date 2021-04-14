@@ -1,4 +1,4 @@
-package application;
+package composicao_application;
 
 	import java.text.ParseException;
 	import java.text.SimpleDateFormat;
@@ -6,11 +6,11 @@ package application;
 	import java.util.Locale;
 	import java.util.Scanner;
 
-	import model.entities.Client;
-	import model.entities.Order;
-	import model.entities.OrderItem;
-	import model.entities.Product;
-	import model.enums.OrderStatus;
+import composicao_model.entities.Client;
+import composicao_model.entities.Order;
+import composicao_model.entities.OrderItem;
+import composicao_model.entities.Product;
+import composicao_model.enums.OrderStatus;
 
 	public class Program_Composição2 {
 

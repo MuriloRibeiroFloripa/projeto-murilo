@@ -1,4 +1,4 @@
-package entities.enums;
+package composicao_entities.enums;
 
 public enum OrderStatus {//STATUS DE PEDIDO	
 	PENDING_PAYMENT,//AGUARDANDO_PAGAMENTO 

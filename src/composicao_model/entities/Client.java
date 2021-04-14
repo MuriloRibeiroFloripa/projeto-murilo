@@ -1,4 +1,4 @@
-package model.entities;
+package composicao_model.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

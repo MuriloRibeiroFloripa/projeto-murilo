@@ -1,4 +1,4 @@
-package entities;
+package composicao_entities;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

@@ -1,10 +1,10 @@
-package application;
+package composicao_application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import entities.Comment;
-import entities.Post;
+import composicao_entities.Comment;
+import composicao_entities.Post;
 
 public class Program_Composição1 {
 

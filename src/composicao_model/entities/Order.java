@@ -1,11 +1,11 @@
-package model.entities1;
+package composicao_model.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import model.enums1.OrderStatus;
+import composicao_model.enums.OrderStatus;
 
 public class Order {
 
@@ -16,10 +16,6 @@ public class Order {
 	
 	private Client client;
 	private List<OrderItem> items = new ArrayList<>();
-	
-	public Order() {
-		
-	}
 	
 	public Order(Date moment, OrderStatus status, Client client) {
 		this.moment = moment;

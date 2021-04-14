@@ -1,5 +1,5 @@
   
-package application;
+package composicao_application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -7,10 +7,10 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Department;
-import entities.HourContract;
-import entities.Worker;
-import entities.enums.WorkerLevel;
+import composicao_entities.Department;
+import composicao_entities.HourContract;
+import composicao_entities.Worker;
+import composicao_entities.enums.WorkerLevel;
 
 public class Program_Composição {
 

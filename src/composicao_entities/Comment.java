@@ -1,4 +1,4 @@
-package entities;
+package composicao_entities;
 
 public class Comment {
 

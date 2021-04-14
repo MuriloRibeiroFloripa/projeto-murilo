@@ -43,7 +43,7 @@ public class Program {
 			BusinessAccount acc5 = (BusinessAccount) acc3;
 			acc5.loan(200.0);
 			System.out.println("Realizei um Emprestimo! ");
-		}
+		}//acc3 não é instância de businessAccount, if falhou!
 		
 		if (acc3 instanceof SavingsAccount) {
 			SavingsAccount acc5 = (SavingsAccount)acc3;

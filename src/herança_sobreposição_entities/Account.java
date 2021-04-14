@@ -1,4 +1,4 @@
-package herança_entities;
+package herança_sobreposição_entities;
 
 public class Account {
 
@@ -36,7 +36,7 @@ public class Account {
 	}
 
 	public void withdraw(double amount) {
-		balance -= amount + 5.0; //desconta esse valor de taxa
+		balance -= amount + 5.0; //desconta valor taxas
 	}
 
 	public void deposit(double amount) {

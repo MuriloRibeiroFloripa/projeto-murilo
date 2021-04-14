@@ -1,7 +1,7 @@
-package herança_sobreposição_application;
+package herança_application.sobreposição;
 
-import herança_sobreposição_entities.Account;
-import herança_sobreposição_entities.SavingsAccount;
+import herança_entities.sobreposição.Account;
+import herança_entities.sobreposição.SavingsAccount;
 
 public class Program {
 

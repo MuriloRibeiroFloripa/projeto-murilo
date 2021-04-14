@@ -1,4 +1,4 @@
-package herança_sobreposição_entities;
+package herança_entities.sobreposição;
 
 public class SavingsAccount extends Account{
 	private Double interestRate;

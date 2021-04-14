@@ -1,11 +1,8 @@
 package herança_application;
 
-import com.sun.java.swing.action.SaveAction;
-
 import herança_entities.Account;
 import herança_entities.BusinessAccount;
 import herança_entities.SavingsAccount;
-
 public class Program {
 
 	public static void main(String[] args) {

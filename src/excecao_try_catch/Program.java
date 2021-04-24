@@ -1,4 +1,4 @@
-package excecao_try_cattch;
+package excecao_try_catch;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

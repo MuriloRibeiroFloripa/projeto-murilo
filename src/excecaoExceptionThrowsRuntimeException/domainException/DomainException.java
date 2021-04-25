@@ -1,4 +1,4 @@
-package Excecao_Exception_Throws_RuntimeException.DomainException;
+package excecaoExceptionThrowsRuntimeException.domainException;
 
 public class DomainException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

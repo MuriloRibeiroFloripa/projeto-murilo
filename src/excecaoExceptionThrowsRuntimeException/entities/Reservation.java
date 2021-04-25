@@ -1,10 +1,10 @@
-package Excecao_Exception_Throws_RuntimeException.entities;
+package excecaoExceptionThrowsRuntimeException.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import Excecao_Exception_Throws_RuntimeException.DomainException.DomainException;
+import excecaoExceptionThrowsRuntimeException.domainException.DomainException;
 
 public class Reservation {
 

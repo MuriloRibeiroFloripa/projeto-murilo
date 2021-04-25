@@ -1,12 +1,13 @@
-package Excecao_Exception_Throws_RuntimeException;
+package excecaoExceptionThrowsRuntimeException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import Excecao_Exception_Throws_RuntimeException.DomainException.DomainException;
-import Excecao_Exception_Throws_RuntimeException.entities.Reservation;
+import excecaoExceptionThrowsRuntimeException.domainException.DomainException;
+import excecaoExceptionThrowsRuntimeException.entities.Reservation;
+
 
 public class Program {
 

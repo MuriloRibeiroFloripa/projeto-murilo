@@ -33,6 +33,7 @@ public class Program {
 			if (sc != null) {
 				sc.close();
 			}
+			System.out.println("Finally block executed");
 		}
 	}
 }

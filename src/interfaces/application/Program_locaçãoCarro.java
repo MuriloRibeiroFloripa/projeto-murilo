@@ -20,8 +20,7 @@ import interfaces.model.services.RentalService;
  * TaxService.java
  * */
 
-
-public class Program {
+public class Program_locaçãoCarro {
 
 	public static void main(String[] args) throws ParseException {
 
@@ -43,6 +42,23 @@ public class Program {
 		double pricePerHour = sc.nextDouble();
 		System.out.print("Enter price per day: ");
 		double pricePerDay = sc.nextDouble();
+
+		/*
+		 * public RentalService(Double pricePerDay, Double pricePerHour, TaxService
+		 * taxService) Injeção de dependência por meio do construtor o objeto de servico
+		 * por meio de imposto new BrasilTaxServices() do qual a classe RentalService
+		 * depende é instânciado em outro lugar no program principal no qual essa
+		 * instância esta sendo injetada na classe RentalService por meio do construtor
+		 * para não gerar um forte acoplamento. ********modelo de forte
+		 * acomplamento************ public RentalService(Double pricePerDay, Double
+		 * pricePerHour){ this.pricePerDay = pricePerDay; this.pricePerHour =
+		 * pricePerHour; this.taxService = new BrasilTaxService; Se fazer desse jeito a
+		 * classe RentalService estará sendo ela mesmo responsável de instânciar a
+		 * dependência dela. gerando o problema de forte acoplamento se futuramente eu
+		 * quiser mudar a forma de imposto terei que alterar essa chamada da
+		 * instânciação além de gerar um forte acoplamento gera dois pontos de
+		 * alteração, por meio de upcasting.
+		 */
 
 		RentalService rentalService = new RentalService(pricePerDay, pricePerHour, new BrazilTaxService());
 

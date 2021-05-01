@@ -1,5 +1,6 @@
 package interfaces.model.entities;
 
+// Interface Comparable
 public class Employee implements Comparable<Employee> {
 	private String name;
 	private Double salary;

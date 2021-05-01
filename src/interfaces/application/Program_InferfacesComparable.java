@@ -9,7 +9,6 @@ import java.util.List;
 
 import interfaces.model.entities.Employee;
 
-
 public class Program_InferfacesComparable {
 	public static void main(String[] args) {
 		List<Employee> list = new ArrayList<>();

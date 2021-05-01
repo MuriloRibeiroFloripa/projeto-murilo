@@ -5,7 +5,7 @@ import interfaces.model.entities.Circle;
 import interfaces.model.entities.Color;
 import interfaces.model.entities.Rectangle;
 
-public class ProgramFigurasGeometricas {
+public class Program_FigurasGeometricas {
 
 	public static void main(String[] args) {
 

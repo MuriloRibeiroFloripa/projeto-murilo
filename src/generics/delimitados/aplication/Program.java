@@ -14,7 +14,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		Locale.setDefault(Locale.US);
+		// Locale.setDefault(Locale.US); //para padrão americano, casas decimais, vigula ou ponto.
 
 		List<Product> list = new ArrayList<>();
 

@@ -17,14 +17,17 @@ public class Program {
 	public static void main(String[] args) {
 
 		Set<Product> set = new HashSet<>();
-		
+
 		set.add(new Product("TV", 900.0));
 		set.add(new Product("Notebook", 1200.0));
 		set.add(new Product("Tablet", 400.0));
-		
-		//testando se o produto Notebook contem na lista
+
+		// testando se o produto Notebook contem na lista, aqui esta com
+		// generate hastCode() and equal().
+		// Senão daria false pois compararia os valores da referencia da memoria
+		// assim que o set faz a comparação para remover inserir e testar se contém.
 		Product prod = new Product("Notebook", 1200.0);
-		System.out.println(set.contains(prod));		
+		System.out.println(set.contains(prod));
 	}
 
 }

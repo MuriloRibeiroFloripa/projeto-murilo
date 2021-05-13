@@ -27,10 +27,9 @@ public class Product {
 	}
 	
 	/*
-	 * generate hastCode() and equal()
-	 * entao sim ai os objetos farão a comparação entre os valores 
-	 * contidos no objeto e não mais pelo refencias de memoria
-	 * que na comparação daria false.
+	 * generate hastCode() and equal() "entao sim" ai os objetos farão a comparação
+	 * entre os valores contidos no objeto e não mais pelo refencias de memoria que
+	 * na comparação daria false inserindo hashCode() e equals(Object obj).
 	 */
 	
 	@Override

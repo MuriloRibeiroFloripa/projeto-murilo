@@ -12,7 +12,7 @@ public class Tutorial {
 		 * e também o CaparableTo podemos usar o TreeMap diretamente.
 		 */
 		
-		//TreeMap ordena pela chave e no caso de string a ordenação é em oredem alfabética
+		//TreeMap ordena pela chave e no caso de string a ordenação é em ordem alfabética
 		Map<String, String> cookies = new TreeMap<>();
 		
 		cookies.put("username", "Maria"); //Armazenando par e valor

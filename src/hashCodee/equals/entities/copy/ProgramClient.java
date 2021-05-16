@@ -1,6 +1,4 @@
-package hashCode.equalss.aplication;
-
-import hashCode.equalss.entities.Client;
+package hashCodee.equals.entities.copy;
 
 public class ProgramClient {
 

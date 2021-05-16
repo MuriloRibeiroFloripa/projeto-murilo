@@ -1,4 +1,4 @@
-package funçãoObjetoPrimeiraOrdemOUordem.entities;
+package funçãoObjetoPrimeiraOrdem.entities;
 
 /* Entendimento
  * Quando se implementa com TreeSet a classe do Produto tem que ser uma implementação

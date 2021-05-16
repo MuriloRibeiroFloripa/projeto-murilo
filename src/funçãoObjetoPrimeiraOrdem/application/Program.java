@@ -1,20 +1,9 @@
-package funçãoObjetoPrimeiraOrdemOUordem.application;
+package funçãoObjetoPrimeiraOrdem.application;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/* 
- * Funções são objetos de primeira ordem (ou primeira classe)
- * Isso significa que funções podem, por exemplo, serem passadas como parâmetros de
- * métodos, bem como retornadas como resultado de métodos.
- * Utilizamos aqui
- * "method references"
- * Operador ::
- * Sintaxe:
- * Classe::método * 
- */
-
-import funçãoObjetoPrimeiraOrdemOUordem.entities.Product;
+import funçãoObjetoPrimeiraOrdem.entities.Product;
 
 public class Program {
 

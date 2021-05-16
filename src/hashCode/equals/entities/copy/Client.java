@@ -1,4 +1,4 @@
-package hashCodeEquals.entities;
+package hashCode.equals.entities.copy;
 
 public class Client {
 

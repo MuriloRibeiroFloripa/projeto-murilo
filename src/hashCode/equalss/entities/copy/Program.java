@@ -1,4 +1,4 @@
-package hashCode.equals.aplication;
+package hashCode.equalss.entities.copy;
 
 /* hashCode e equals
  * São operações da classe Object utilizadas para comparar se um objeto

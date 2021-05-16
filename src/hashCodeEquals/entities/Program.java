@@ -13,7 +13,7 @@ package hashCodeEquals.entities;
  * a partir das informações do objeto 
  */
 
-public class program {
+public class Program {
 
 	public static void main(String[] args) {
 

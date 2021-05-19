@@ -1,10 +1,10 @@
-package expressõesLambda.interfaceFuncional.expressãoLabdaDeclara.application;
+package expressõesLambda.interfaceFuncional.expressaoLambdaInline.application;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Predicate;
+//import java.util.function.Predicate;
 
-import expressõesLambda.interfaceFuncional.expressãoLabdaDeclara.entities.Product;
+import expressõesLambda.interfaceFuncional.expressaoLambdaInline.entities.Product;
 
 /* Predicate
  * https://docs.oracle.com/javase/10/docs/api/java/util/function/Predicate.html
@@ -29,13 +29,14 @@ public class Program {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 
-		//variavel predicate, legal para colocar valor parametrizado tipo:
+		//variavel predicate, não declarada:
 		double min = 100.0;
 		
 		//variavel predicate
-		Predicate<Product> pred = p -> p.getPrice() >= min;
+		//Predicate<Product> pred = p -> p.getPrice() >= min;
 		
-		list.removeIf(pred);
+		// coloca direto no removeIF a expressão lambda
+		list.removeIf(p -> p.getPrice() >= min);
 
 		for (Product p : list) {
 			System.out.println(p);

@@ -5,8 +5,6 @@ import java.util.List;
 
 import expressõesLambda.interfaceFuncional.predicate.entities.Product;
 
-
-
 /* Predicate
  * https://docs.oracle.com/javase/10/docs/api/java/util/function/Predicate.html
  * public interface Predicate<T> {

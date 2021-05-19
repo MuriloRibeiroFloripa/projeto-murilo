@@ -3,7 +3,9 @@ package expressõesLambda.interfaceFuncional.predicate.application;
 import java.util.ArrayList;
 import java.util.List;
 
-import expressõesLambda.experienciaComparator.entities.Product;
+import expressõesLambda.interfaceFuncional.predicate.entities.Product;
+
+
 
 /* Predicate
  * https://docs.oracle.com/javase/10/docs/api/java/util/function/Predicate.html
